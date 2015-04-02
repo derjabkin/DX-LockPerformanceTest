@@ -3,6 +3,5 @@ obj
 *.suo
 *.user
 *.cache
-/*.bak
-
-/LockPerformanceTest.Web/*.log
+*.bak
+*.log
