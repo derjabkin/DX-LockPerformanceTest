@@ -1,0 +1,4 @@
+DevExpress 14.2.6 Original Assemblies: 11,0 - 10,12
+DevExpress 14.2.6 Self-Compiled-Debug: 15,98 - 14,41
+
+
