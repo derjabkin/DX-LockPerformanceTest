@@ -68,9 +68,6 @@
     <Reference Include="DevExpress.ExpressApp.Xpo.v14.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.v14.2">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
     <Reference Include="DevExpress.ExpressApp.Images.v14.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
@@ -127,6 +124,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\DevExpressBuild\Source\DevExpress.ExpressApp\DevExpress.ExpressApp\DevExpress.ExpressApp.csproj">
+      <Project>{39e0de91-4458-44fa-9320-55f94bd812ab}</Project>
+      <Name>DevExpress.ExpressApp</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LockPerformanceTest.Module\LockPerformanceTest.Module.csproj">
       <Project>{5F15837D-D1E5-44DC-92F0-4F2EBE9C3F8D}</Project>
       <Name>LockPerformanceTest.Module</Name>

@@ -63,9 +63,6 @@
     <Reference Include="DevExpress.ExpressApp.Images.v14.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.v14.2">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
     <Reference Include="DevExpress.ExpressApp.Web.v14.2">
       <SpecificVersion>False</SpecificVersion>
       <Private>True</Private>
@@ -168,9 +165,7 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebApplication.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="WebApplication.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -197,6 +192,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\DevExpressBuild\Source\DevExpress.ExpressApp\DevExpress.ExpressApp\DevExpress.ExpressApp.csproj">
+      <Project>{39e0de91-4458-44fa-9320-55f94bd812ab}</Project>
+      <Name>DevExpress.ExpressApp</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LockPerformanceTest.Module.Web\LockPerformanceTest.Module.Web.csproj">
       <Project>{0C729AAD-7626-4668-A7F1-35F7D240489D}</Project>
       <Name>LockPerformanceTest.Module.Web</Name>
